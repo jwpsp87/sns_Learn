@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sns.post.mapper.PostMapper">
+    <select id="selectPostListTest" resultType="com.sns.post.domain.Post">
+        SELECT
+            *
+        FROM
+            `post`
+
+    </select>
+
+</mapper>
