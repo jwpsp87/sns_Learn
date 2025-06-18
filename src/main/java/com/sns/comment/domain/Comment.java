@@ -1,18 +1,16 @@
-package com.sns.post.domain;
+package com.sns.comment.domain;
 
 import lombok.Data;
-import lombok.ToString;
 
 import java.time.LocalDateTime;
 
-@ToString
 @Data
-public class Post {
+public class Comment {
 
-    private int id;
+    private int postId;
     private int userId;
+    private int id;
     private String content;
-    private String imagePath;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
